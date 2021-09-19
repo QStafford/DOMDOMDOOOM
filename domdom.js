@@ -23,9 +23,14 @@ document.addEventListener("DOMContentLoaded", function () {
        
         document.body.appendChild(Square)
         
+       
         Square.addEventListener("click", function(){
             Square.style.background = 'blue'
         })
         
+        Square.addEventListener("dblclick", function(){
+            Square.style.background = 'red'
+            }
+        )
     })
 })
