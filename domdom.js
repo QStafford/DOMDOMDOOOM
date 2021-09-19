@@ -9,6 +9,12 @@ document.addEventListener("DOMContentLoaded", function () {
     button.addEventListener("click", function(){
         let Square = document.createElement("div")
         Square.className = 'BlackBox' 
+        Square.style.width = "100px"
+        Square.style.height = "100px"
+        Square.style.border = "20px solid black"
+        Square.style.padding = "50px solid black"
+        Square.style.margin = "20px"
+        Square.style.flexWrap = 'wrap'
 
         document.body.appendChild(Square)
     })
