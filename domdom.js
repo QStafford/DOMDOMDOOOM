@@ -15,8 +15,6 @@ document.addEventListener("DOMContentLoaded", function () {
         Square.style.padding = "50px solid black"
         Square.style.margin = "20px"
         Square.style.float = 'right'
-
-
         document.body.appendChild(Square)
     })
 })
