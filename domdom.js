@@ -1,6 +1,8 @@
-let button = document.createElement("button");
-let btnText = document.createTextNode("Add Square");
+document.addEventListener("DOMContentLoaded", function () {
+    let button = document.createElement("button");
+    let btnText = document.createTextNode("Add Square");
 
-button.appendChild(btnText)
+    button.appendChild(btnText)
 
-document.body.appendChild(button)
+    document.body.appendChild(button)
+})
