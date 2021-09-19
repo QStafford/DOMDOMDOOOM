@@ -5,4 +5,11 @@ document.addEventListener("DOMContentLoaded", function () {
     button.appendChild(btnText)
 
     document.body.appendChild(button)
+
+    button.addEventListener("click", function(){
+        let Square = document.createElement("div")
+        
+
+        document.body.appendChild(Square)
+    })
 })
