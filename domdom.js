@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     button.addEventListener("click", function(){
         let Square = document.createElement("div")
-        div.className = 'BlackBox' 
+        Square.className = 'BlackBox' 
 
         document.body.appendChild(Square)
     })
