@@ -12,9 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         Square.className = 'BlackBox'
         
         Square.id = i++ 
-        
-        
-        
+             
         Square.style.width = "50px"
         Square.style.height = "50px"
         Square.style.border = "30px solid black"
