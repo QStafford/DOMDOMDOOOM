@@ -20,7 +20,6 @@ document.addEventListener("DOMContentLoaded", function () {
         Square.style.margin = "20px"
         Square.style.float = 'right'
         Square.innerText = Square.id
-        Square.style.textAlign = center
        
         document.body.appendChild(Square)
         
