@@ -19,7 +19,8 @@ document.addEventListener("DOMContentLoaded", function () {
         Square.style.padding = "50px solid black"
         Square.style.margin = "20px"
         Square.style.float = 'right'
-       
+        Square.innerText = Square.id
+        Square.style.textAlign = center
        
         document.body.appendChild(Square)
         
